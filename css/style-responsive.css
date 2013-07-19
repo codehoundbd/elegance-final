@@ -80,12 +80,28 @@
   padding: 0px 25px;
 }
 
+.blog-wrapper{
+  width:75%;
+}
+.blog-sidebar{
+  width: 25%;
+}
+.blog-header h1{
+line-height: 1em;
+}
 
 
 }
 
+@media (max-width: 600px) {
+.blog-sidebar{
+display: none;
+}
+#blog-main .row-fluid .span8 {
+  width: 100%;
+}
 
-
+}
 
 
 @media screen and (max-width: 31.5em) {
@@ -96,6 +112,19 @@
     width: 100%;
     min-width: 300px;
   }
+  .blog-wrapper {
+  width:100%;
+}
+
+.blog-header h1{
+line-height: 1em;
+}
+#blog-main .row-fluid .span8 {
+  width: 100%;
+}
+.blog-sidebar{
+display: none;
+}
 }
 
 
