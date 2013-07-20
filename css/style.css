@@ -21,6 +21,10 @@ h6{font-size: 14px;}
 h1,h2,h3,h4,h5,h6{
   margin: 0px 0px 10px 0px;
   line-height: 15px;
+  color: #5c5b5b;
+}
+p{
+  color: #5c5b5b;
 }
 ul,ol{
   margin: 0px;
@@ -1107,7 +1111,7 @@ color: black;
 .span4 .blog-header{
   border-top: 2px solid #2f94e5;
 border-bottom: 2px solid #2f94e5;
-color: black;
+color:#5c5b5b;;
 
 margin-top: 4%;
 padding: 5px;
@@ -1154,7 +1158,7 @@ margin-bottom: 30px
 }
 .blog-sidebar .blog-categories a{
 font-size: 1.5em;
-color: black;
+color: #5c5b5b;
 }
 .blog-sidebar .blog-categories a:hover{
 color: #0870c4;
@@ -1199,7 +1203,7 @@ section header{
 section#contact-main{
 
   background-color: #f5f5f5;
-  padding: 50px 10%;
+ 
 }
 
 section#contact-main h1, section#about-main p{
@@ -1220,4 +1224,71 @@ section#contact-main p{
   font-size: 12pt;
   padding: 10px 50px;
   line-height: 20px;
+}
+section#contact-main img{
+  width: 90%;
+   margin: 20px 0 20px 5%;
+}
+section#contact-main .contact-form-wrapper{
+  border: 1px solid grey;
+  background-color: white;
+  margin: 20px 0px 20px 5%;
+    border-radius: 5px;
+     box-shadow: 0 0 5px;
+}
+section#contact-main input[type="text"] {
+  padding: 25px;
+  width:600px;
+  border: 2px solid #bfbfbf;
+  margin-bottom: 30px;
+
+
+}
+section#contact-main .contact-form{
+   margin: 10px 7%;
+   
+   padding-top: 20px;
+
+
+}
+section#contact-main textarea{
+  border: 2px solid #bfbfbf;
+  width: 600px;
+  height: 120px
+  
+}
+section#contact-main .btn{
+  background-color: #2a92e5;
+  box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+  border-radius: 2px;
+  margin-left: 25%;
+  width: 250px;
+  font-size: 2.3em;
+
+}
+section#contact-main .btn:hover{
+  background-color: #92ccfa;
+}
+section#contact-main .bar-header{
+border-top: 2px solid #2f94e5;
+border-bottom: 2px solid #2f94e5;
+color:#5c5b5b;;
+
+margin-top: 5%;
+line-height: 1.3em;
+text-transform: uppercase;
+font-size: 24px;
+}
+.contact-sidebar{
+  
+  margin: 10px 8.5% 10px 0px;
+}
+.contact-sidebar .bar-text{
+  line-height: 1.3em;
+  font-size: 18px;
+  margin-top: 5%;
+}
+section#contact-map h1{
+  margin-left: 4%;
+  padding: 2%;
 }

@@ -131,14 +131,91 @@
 
 
       <section id='contact-main'>
-
+          
         <img src="img/contact-banner.jpg" alt='About us'>
-
+         
         <h1>We're <b class="emph">CODEHOUND</b></h1>
         <p>As you can see, without affecting how blurry the shadow is, the spread of the shadow essentially grows and shrinks the surface area occupied by the shadow. If you thought of it as the size of the shadow, you wouldn’t be too far off.
 
           If you leave off either the blur or spread radius, their values will default to zero. Looking around the web, you’re likely to see that most demos that you come across, including those on Design Shack, have no spread radius defined. Also note that the -webkit prefixed version of box-shadow is often still added to ensure browser compatibility when using box-shadow. testikng</p>
+          
+         <div class="row-fluid">
+          <div class="">
+          <div class="span8">
+            <div class="contact-form-wrapper">
+              <div class="contact-form">
+                <form >
+                  <ul class="contact-form">
+                    <li><input type="text" placeholder="Name"></li>
+                    <li><input type="text" placeholder="Email"></li>
+                    <li><input type="text" placeholder="Subject"></li>
+                    <li><textarea rows="3"></textarea></li>
+                    <li><button class="btn btn-large" type="button">Send</button></li>
+                    
+                  </ul>
+                  
+                  
+                  
+                  
+                      
+                    
+                  </div>
+                </form>
+              </div>
+              
 
+            </div>
+
+
+          </div>
+          <div class="span4">
+            
+              <div class="contact-sidebar">
+            <div class="bar-header">
+              ADDRESS
+            </div>
+            <div class="bar-text">
+              <ul>
+                <li>No.28 - 63739 street</li>
+                <li>lorem ipsum City, Country</li>
+              </ul>
+            </div>
+            <div class="bar-header">
+             PHONE
+            </div>
+            <div class="bar-text">
+              <ul>
+                <li>+1 (234) 567 8901</li>
+                
+              </ul>
+              </div>
+            <div class="bar-header">
+              EMAIL
+            </div>
+            <div class="bar-text">
+              <ul>
+                <li>support@yoursite.com</li>
+                
+              </ul>
+           </div>
+            <div class="bar-header">
+              OFFICE HOURS
+            </div>
+            <div class="bar-text">
+              <ul>
+                <li>Monday    - Friday 8 am to 4 pm</li>
+                <li>Saturday  - 9 am to 2 pm</li>
+              <li>Sunday    - Closed</li>
+              </ul>
+          </div>
+        </div>
+          
+          </div>
+           </div>
+        </section>
+        <section id="contact-map">
+          <h1>OUR <b class="emph">LOCATION</b></h1>
+          <div id="googleMap" style="width:100%px;height:380px;"></div>
 
         </section>
 
@@ -325,6 +402,23 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="js/slider/raphael-min.js"></script>
+    <script
+    src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+    </script>
+
+    <script>
+    function initialize()
+    {
+      var mapProp = {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:10,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     
 
     
